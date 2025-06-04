@@ -38,89 +38,16 @@ body {
   min-height: 100%;
   font-family: "Avenir Next", "Avenir Next W01", Avenir, helvetica, arial, sans-serif;
   line-height: 20px;
-  background-size: cover ;
+  background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
   margin-top: 50px;
-  background-color: #839192 ;
+  background-color: #839192;
   font-size: 2.3rem;
   font-weight: 700;
 }
 
-.hero-section{
-  border-radius: 6px 6px  6px 6px;
-  background-color:  #0288d1;
-  width: 1200px;
-  height: auto;
-  margin: auto auto;
-  justify-items: center;
-}
-
-.hero-container{
-  background-color: white;
-  margin: auto auto;
-  width: 900px;
-  height: auto;
-  display: grid;
-  grid-template-columns: 400px 400px;
-  grid-template-rows: 400px 400px 400px;
-  grid-column-gap: 40px;
-  grid-row-gap: 70px;
-  justify-content: center;
-  max-width: 1200px;
-}
-
-.grid--connect__copy-1{
-  width: 400px;
-  height: 400px;
-  grid-row: 1/2;
-  grid-column: 2/3;
-  line-height: 3rem;
-  text-align: left;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-
-.grid--connect__copy-2{
-  width: 400px;
-  height: 400px;
-  grid-row: 2/3;
-  grid-column: 1/2;
-  line-height: 3rem;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.grid--connect__copy-3{
-  width: 400px;
-  height: 400px;
-  grid-row: 3/4;
-  grid-column: 2/3;
-  line-height: 3rem;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.grid--connect__image-1{
-  grid-row: 1/2;
-  grid-column: 1/1;
-
-}
-.grid--connect__image-2{
-  grid-row: 2/3;
-  grid-column: 2/3;
-}
-
-.grid--connect__image-3{
-  grid-row: 3/4;
-  grid-column: 1/2;
-}
-
-img{
+img {
   width: 400px;
   height: 400px;
 }
@@ -129,3 +56,37 @@ h4 {
   display: block;
   margin-bottom: 1.33em;
 }
+
+.hero-section {
+  border-radius: 6px;
+  background-color: var(--blue);
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  background-color: var(--white);
+  width: 900px;
+  height: auto;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  grid-column-gap: 40px;
+  grid-row-gap: 70px;
+  justify-content: center;
+  max-width: 1200px;
+}
+
+.grid--connect__copy-2 {
+  grid-row: 2/3;
+}
+
+.connect-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
